@@ -39,7 +39,7 @@ CONFIG_SCHEMA = (
             cv.Required(CONF_SENSOR): cv.use_id(voltage_sampler.VoltageSampler),
         }
     )
-    .extend(cv.polling_component_schema("10s"))
+    .extend(cv.polling_component_schema("60s"))
 )
 
 
