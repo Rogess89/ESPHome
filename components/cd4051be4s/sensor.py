@@ -27,7 +27,7 @@ CONFIG_SCHEMA = (
     sensor.sensor_schema(
         CD4051BE4SSensor,
         unit_of_measurement=UNIT_VOLT,
-        accuracy_decimals=3,
+        accuracy_decimals=2,
         device_class=DEVICE_CLASS_VOLTAGE,
         state_class=STATE_CLASS_MEASUREMENT,
         icon=ICON_FLASH,
